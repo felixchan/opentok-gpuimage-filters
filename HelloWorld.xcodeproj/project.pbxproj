@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893D7DF51BFFF8F900CAE826 /* FilteredPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D7DF41BFFF8F900CAE826 /* FilteredPublisher.swift */; };
+		CD99C5E51B0C3A3F003D4FED /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD99C5E41B0C3A3F003D4FED /* GLKit.framework */; };
+		CD99C5E71B0C3A46003D4FED /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD99C5E61B0C3A46003D4FED /* VideoToolbox.framework */; };
+		CDC39155193E9E790006FFCB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC39154193E9E790006FFCB /* libsqlite3.dylib */; };
+		CDC39157193E9E970006FFCB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC39156193E9E970006FFCB /* CoreTelephony.framework */; };
+		CDC39159193E9EA20006FFCB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC39158193E9EA20006FFCB /* SystemConfiguration.framework */; };
+		CDC3915B193E9EA90006FFCB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC3915A193E9EA90006FFCB /* OpenGLES.framework */; };
+		CDC3915D193E9EB00006FFCB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC3915C193E9EB00006FFCB /* CoreVideo.framework */; };
+		CDC3915F193E9EEC0006FFCB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC3915E193E9EEC0006FFCB /* CoreMedia.framework */; };
+		CDC39161193E9EF20006FFCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC39160193E9EF20006FFCB /* CoreGraphics.framework */; };
+		CDC39163193E9EF70006FFCB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC39162193E9EF70006FFCB /* AudioToolbox.framework */; };
+		CDC39165193E9EFB0006FFCB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC39164193E9EFB0006FFCB /* AVFoundation.framework */; };
+		CDC39167193E9F010006FFCB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC39166193E9F010006FFCB /* QuartzCore.framework */; };
+		CDC39169193E9F070006FFCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC39168193E9F070006FFCB /* UIKit.framework */; };
+		CDC3916B193E9F0B0006FFCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC3916A193E9F0B0006FFCB /* Foundation.framework */; };
+		CDC3916F193E9F260006FFCB /* libpthread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC3916E193E9F260006FFCB /* libpthread.dylib */; };
+		CDC39171193E9F2B0006FFCB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC39170193E9F2B0006FFCB /* libxml2.dylib */; };
+		CDC904D0193E3BAF00E878A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC904CF193E3BAF00E878A8 /* AppDelegate.swift */; };
+		CDC904D2193E3BAF00E878A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC904D1193E3BAF00E878A8 /* ViewController.swift */; };
+		CDC904D5193E3BAF00E878A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC904D3193E3BAF00E878A8 /* Main.storyboard */; };
+		CDC904D7193E3BAF00E878A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC904D6193E3BAF00E878A8 /* Images.xcassets */; };
+		CDC904E3193E3BAF00E878A8 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC904E2193E3BAF00E878A8 /* HelloWorldTests.swift */; };
+		CDC904ED193E3BD300E878A8 /* OpenTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC904EC193E3BD300E878A8 /* OpenTok.framework */; };
+		CDF416561A89A85D002B5CEF /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF416551A89A85D002B5CEF /* libc++.dylib */; };
+		FB8345A49A2BBE549E378746 /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0585F25B616222416DABDC /* Pods_HelloWorld.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC904DD193E3BAF00E878A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC904C2193E3BAF00E878A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC904C9193E3BAF00E878A8;
+			remoteInfo = HelloWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0585F25B616222416DABDC /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C79593A8377560D907374C8 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
+		2207FCF67FFBA5751C2CE546 /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		893D7DF41BFFF8F900CAE826 /* FilteredPublisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredPublisher.swift; sourceTree = "<group>"; };
+		CD99C5E41B0C3A3F003D4FED /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CD99C5E61B0C3A46003D4FED /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		CDC39154193E9E790006FFCB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CDC39156193E9E970006FFCB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CDC39158193E9EA20006FFCB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CDC3915A193E9EA90006FFCB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CDC3915C193E9EB00006FFCB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CDC3915E193E9EEC0006FFCB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CDC39160193E9EF20006FFCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDC39162193E9EF70006FFCB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CDC39164193E9EFB0006FFCB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CDC39166193E9F010006FFCB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDC39168193E9F070006FFCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDC3916A193E9F0B0006FFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDC3916C193E9F210006FFCB /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		CDC3916E193E9F260006FFCB /* libpthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpthread.dylib; path = usr/lib/libpthread.dylib; sourceTree = SDKROOT; };
+		CDC39170193E9F2B0006FFCB /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		CDC904CA193E3BAF00E878A8 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC904CE193E3BAF00E878A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC904CF193E3BAF00E878A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDC904D1193E3BAF00E878A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDC904D4193E3BAF00E878A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDC904D6193E3BAF00E878A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDC904DC193E3BAF00E878A8 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC904E1193E3BAF00E878A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC904E2193E3BAF00E878A8 /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		CDC904EC193E3BD300E878A8 /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenTok.framework; sourceTree = "<group>"; };
+		CDC904EE193E3C0000E878A8 /* HelloWorld-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		CDF416551A89A85D002B5CEF /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC904C7193E3BAF00E878A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD99C5E71B0C3A46003D4FED /* VideoToolbox.framework in Frameworks */,
+				CD99C5E51B0C3A3F003D4FED /* GLKit.framework in Frameworks */,
+				CDF416561A89A85D002B5CEF /* libc++.dylib in Frameworks */,
+				CDC39171193E9F2B0006FFCB /* libxml2.dylib in Frameworks */,
+				CDC3916F193E9F260006FFCB /* libpthread.dylib in Frameworks */,
+				CDC3916B193E9F0B0006FFCB /* Foundation.framework in Frameworks */,
+				CDC39169193E9F070006FFCB /* UIKit.framework in Frameworks */,
+				CDC39167193E9F010006FFCB /* QuartzCore.framework in Frameworks */,
+				CDC39165193E9EFB0006FFCB /* AVFoundation.framework in Frameworks */,
+				CDC39163193E9EF70006FFCB /* AudioToolbox.framework in Frameworks */,
+				CDC39161193E9EF20006FFCB /* CoreGraphics.framework in Frameworks */,
+				CDC3915F193E9EEC0006FFCB /* CoreMedia.framework in Frameworks */,
+				CDC3915D193E9EB00006FFCB /* CoreVideo.framework in Frameworks */,
+				CDC3915B193E9EA90006FFCB /* OpenGLES.framework in Frameworks */,
+				CDC39159193E9EA20006FFCB /* SystemConfiguration.framework in Frameworks */,
+				CDC39157193E9E970006FFCB /* CoreTelephony.framework in Frameworks */,
+				CDC39155193E9E790006FFCB /* libsqlite3.dylib in Frameworks */,
+				CDC904ED193E3BD300E878A8 /* OpenTok.framework in Frameworks */,
+				FB8345A49A2BBE549E378746 /* Pods_HelloWorld.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC904D9193E3BAF00E878A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A27ED2031A03211CE1F4E45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2207FCF67FFBA5751C2CE546 /* Pods-HelloWorld.debug.xcconfig */,
+				1C79593A8377560D907374C8 /* Pods-HelloWorld.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		249360835D1287AF8F14779B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B0585F25B616222416DABDC /* Pods_HelloWorld.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDC39172193ED8D20006FFCB /* Platform Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDC39170193E9F2B0006FFCB /* libxml2.dylib */,
+				CDC3916E193E9F260006FFCB /* libpthread.dylib */,
+				CDF416551A89A85D002B5CEF /* libc++.dylib */,
+				CDC3916C193E9F210006FFCB /* libstdc++.6.0.9.dylib */,
+				CDC3916A193E9F0B0006FFCB /* Foundation.framework */,
+				CDC39168193E9F070006FFCB /* UIKit.framework */,
+				CDC39166193E9F010006FFCB /* QuartzCore.framework */,
+				CDC39164193E9EFB0006FFCB /* AVFoundation.framework */,
+				CDC39162193E9EF70006FFCB /* AudioToolbox.framework */,
+				CDC39160193E9EF20006FFCB /* CoreGraphics.framework */,
+				CDC3915E193E9EEC0006FFCB /* CoreMedia.framework */,
+				CDC3915C193E9EB00006FFCB /* CoreVideo.framework */,
+				CDC3915A193E9EA90006FFCB /* OpenGLES.framework */,
+				CDC39158193E9EA20006FFCB /* SystemConfiguration.framework */,
+				CDC39156193E9E970006FFCB /* CoreTelephony.framework */,
+				CDC39154193E9E790006FFCB /* libsqlite3.dylib */,
+			);
+			name = "Platform Frameworks";
+			sourceTree = "<group>";
+		};
+		CDC904C1193E3BAF00E878A8 = {
+			isa = PBXGroup;
+			children = (
+				CD99C5E61B0C3A46003D4FED /* VideoToolbox.framework */,
+				CD99C5E41B0C3A3F003D4FED /* GLKit.framework */,
+				CDC39172193ED8D20006FFCB /* Platform Frameworks */,
+				CDC904CC193E3BAF00E878A8 /* HelloWorld */,
+				CDC904DF193E3BAF00E878A8 /* HelloWorldTests */,
+				CDC904CB193E3BAF00E878A8 /* Products */,
+				0A27ED2031A03211CE1F4E45 /* Pods */,
+				249360835D1287AF8F14779B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC904CB193E3BAF00E878A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC904CA193E3BAF00E878A8 /* HelloWorld.app */,
+				CDC904DC193E3BAF00E878A8 /* HelloWorldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC904CC193E3BAF00E878A8 /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				CDC904EC193E3BD300E878A8 /* OpenTok.framework */,
+				893D7DF41BFFF8F900CAE826 /* FilteredPublisher.swift */,
+				CDC904D1193E3BAF00E878A8 /* ViewController.swift */,
+				CDC904CF193E3BAF00E878A8 /* AppDelegate.swift */,
+				CDC904D3193E3BAF00E878A8 /* Main.storyboard */,
+				CDC904D6193E3BAF00E878A8 /* Images.xcassets */,
+				CDC904CD193E3BAF00E878A8 /* Supporting Files */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		CDC904CD193E3BAF00E878A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC904EE193E3C0000E878A8 /* HelloWorld-Bridging-Header.h */,
+				CDC904CE193E3BAF00E878A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDC904DF193E3BAF00E878A8 /* HelloWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC904E2193E3BAF00E878A8 /* HelloWorldTests.swift */,
+				CDC904E0193E3BAF00E878A8 /* Supporting Files */,
+			);
+			path = HelloWorldTests;
+			sourceTree = "<group>";
+		};
+		CDC904E0193E3BAF00E878A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC904E1193E3BAF00E878A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC904C9193E3BAF00E878A8 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC904E6193E3BAF00E878A8 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				42CFADA748C3E1F8EC381820 /* Check Pods Manifest.lock */,
+				CDC904C6193E3BAF00E878A8 /* Sources */,
+				CDC904C7193E3BAF00E878A8 /* Frameworks */,
+				CDC904C8193E3BAF00E878A8 /* Resources */,
+				704E2CAB3E8C96124E4898E7 /* Copy Pods Resources */,
+				6A43121D8DF7F4123AE1D3C3 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = CDC904CA193E3BAF00E878A8 /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDC904DB193E3BAF00E878A8 /* HelloWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC904E9193E3BAF00E878A8 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
+			buildPhases = (
+				CDC904D8193E3BAF00E878A8 /* Sources */,
+				CDC904D9193E3BAF00E878A8 /* Frameworks */,
+				CDC904DA193E3BAF00E878A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC904DE193E3BAF00E878A8 /* PBXTargetDependency */,
+			);
+			name = HelloWorldTests;
+			productName = HelloWorldTests;
+			productReference = CDC904DC193E3BAF00E878A8 /* HelloWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC904C2193E3BAF00E878A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Patrick Quinn-Graham";
+				TargetAttributes = {
+					CDC904C9193E3BAF00E878A8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CDC904DB193E3BAF00E878A8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CDC904C9193E3BAF00E878A8;
+					};
+				};
+			};
+			buildConfigurationList = CDC904C5193E3BAF00E878A8 /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC904C1193E3BAF00E878A8;
+			productRefGroup = CDC904CB193E3BAF00E878A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC904C9193E3BAF00E878A8 /* HelloWorld */,
+				CDC904DB193E3BAF00E878A8 /* HelloWorldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC904C8193E3BAF00E878A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC904D5193E3BAF00E878A8 /* Main.storyboard in Resources */,
+				CDC904D7193E3BAF00E878A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC904DA193E3BAF00E878A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42CFADA748C3E1F8EC381820 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A43121D8DF7F4123AE1D3C3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		704E2CAB3E8C96124E4898E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC904C6193E3BAF00E878A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC904D2193E3BAF00E878A8 /* ViewController.swift in Sources */,
+				CDC904D0193E3BAF00E878A8 /* AppDelegate.swift in Sources */,
+				893D7DF51BFFF8F900CAE826 /* FilteredPublisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC904D8193E3BAF00E878A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC904E3193E3BAF00E878A8 /* HelloWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDC904DE193E3BAF00E878A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC904C9193E3BAF00E878A8 /* HelloWorld */;
+			targetProxy = CDC904DD193E3BAF00E878A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDC904D3193E3BAF00E878A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC904D4193E3BAF00E878A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC904E4193E3BAF00E878A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC904E5193E3BAF00E878A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC904E7193E3BAF00E878A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2207FCF67FFBA5751C2CE546 /* Pods-HelloWorld.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloWorld",
+				);
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloWorld-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		CDC904E8193E3BAF00E878A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C79593A8377560D907374C8 /* Pods-HelloWorld.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloWorld",
+				);
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloWorld-Bridging-Header.h";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+		CDC904EA193E3BAF00E878A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		CDC904EB193E3BAF00E878A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC904C5193E3BAF00E878A8 /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC904E4193E3BAF00E878A8 /* Debug */,
+				CDC904E5193E3BAF00E878A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC904E6193E3BAF00E878A8 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC904E7193E3BAF00E878A8 /* Debug */,
+				CDC904E8193E3BAF00E878A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC904E9193E3BAF00E878A8 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC904EA193E3BAF00E878A8 /* Debug */,
+				CDC904EB193E3BAF00E878A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC904C2193E3BAF00E878A8 /* Project object */;
+}

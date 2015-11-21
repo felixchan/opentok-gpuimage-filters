@@ -1,0 +1,13 @@
+PODS:
+  - GPUImage (0.1.7)
+  - OpenTok (2.6.1)
+
+DEPENDENCIES:
+  - GPUImage
+  - OpenTok (~> 2.6)
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  OpenTok: 6c094ee06dc954a4327c0a736f494f0eaf35c48c
+
+COCOAPODS: 0.39.0
