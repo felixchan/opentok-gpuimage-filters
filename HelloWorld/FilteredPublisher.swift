@@ -8,7 +8,7 @@ class FilteredPublisher:  OTPublisherKit, OTVideoCapture, GPUImageVideoCameraDel
     let imageHeight = 240
     let imageWidth = 320
     
-    @objc weak var videoCaptureConsumer: OTVideoCaptureConsumer!
+    var videoCaptureConsumer: OTVideoCaptureConsumer?
     var videoCamera: GPUImageVideoCamera?
     let sepiaImageFilter = GPUImageSepiaFilter()
     var videoFrame = OTVideoFrame()
@@ -46,11 +46,11 @@ class FilteredPublisher:  OTPublisherKit, OTVideoCapture, GPUImageVideoCameraDel
         CVPixelBufferLockBaseAddress(imageBuffer!, 0)
         videoFrame?.clearPlanes()
         for var i = 0 ; i < CVPixelBufferGetPlaneCount(imageBuffer!); i++ {
-            print(i)
             videoFrame?.planes.addPointer(CVPixelBufferGetBaseAddressOfPlane(imageBuffer!, i))
         }
         videoFrame?.orientation = OTVideoOrientation.Left
-        videoCaptureConsumer.consumeFrame(videoFrame) //comment this out to stop app from crashing
+        videoCaptureConsumer?.consumeFrame(videoFrame)  //crashes
+        
         CVPixelBufferUnlockBaseAddress(imageBuffer!, 0)
     }
     
