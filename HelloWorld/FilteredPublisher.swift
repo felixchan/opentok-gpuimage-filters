@@ -8,7 +8,7 @@ class FilteredPublisher:  OTPublisherKit, OTVideoCapture, GPUImageVideoCameraDel
     let imageHeight = 240
     let imageWidth = 320
     
-    weak var videoCaptureConsumer: OTVideoCaptureConsumer!
+    @objc weak var videoCaptureConsumer: OTVideoCaptureConsumer!
     var videoCamera: GPUImageVideoCamera?
     let sepiaImageFilter = GPUImageSepiaFilter()
     var videoFrame = OTVideoFrame()
